@@ -1,0 +1,72 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	list-style: none;
+	position: relative;
+	text-decoration: none;
+	-webkit-tap-highlight-color: transparent;/*tap触碰，highlight高亮*/
+}
+body{
+	font-size: 16px;
+	background: #f2f3f4;
+}
+.header{
+	width: 100%;
+	height: .88rem;
+	background-color: #fff;
+	box-shadow: 0 15px 10px rgba(0,0,0,0.1);
+}
+input{
+	width: 100%;
+	line-height: .88rem;
+	outline: none;
+	border: 0;
+	color: #ccc;
+	font-size: .26rem;
+}
+input::-webkit-input-placeholder{
+	color: #ccc;
+	font-size: .26rem;
+}
+.cancle{
+	width: 1.07rem;
+	height: 0.88rem;
+	background-color: #fff;
+	position: absolute;
+	right: .24rem;
+	top: 0;
+	line-height: .88rem;
+	font-size: .28rem;
+	color: #999;
+}
+.body{
+	width: 7.02rem;
+	height: 100%;
+	background-color: #fff;
+	margin:.21rem .24rem 0;
+	border-top-left-radius: .1rem; 
+	border-top-right-radius: .1rem; 
+}
+.body_header{
+	width: 100%;
+	height: .78rem;
+	background-color: #eaebec;
+	border-top-left-radius: .1rem; 
+	border-top-right-radius: .1rem; 
+}
+.city{
+	font-size: .2rem;
+	color: #999;
+	line-height: .78rem;
+	margin-left: .31rem;
+}
+.item_list{
+	width: 100%;
+	height: .99rem;
+	border-bottom: 1px solid #ccc;
+	line-height: .99rem;
+	padding: 0 0 0 .31rem;
+	background-color: #fff;
+	font-size: .26rem;
+}

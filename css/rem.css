@@ -1,0 +1,27 @@
+
+/*媒体查询 屏幕 宽度*/
+@media screen and (min-width: 320px){
+    html{
+        font-size:calc(100*320/750px) ;
+    }
+}
+@media screen and (min-width: 360px){
+    html{
+        font-size: calc(100*360/750px);
+    }
+}
+@media screen and (min-width: 375px){
+    html{
+        font-size: calc(100*375/750px);
+    }
+}
+@media screen and (min-width: 414px){
+    html{
+        font-size: calc(100*414/750px);
+    }
+}
+@media screen and (min-width: 750px){
+    html{
+        font-size: calc(100*750/750px);
+    }
+}
